@@ -96,7 +96,7 @@ function makePurchase() {
 
     $.ajax({
         type: 'POST',
-        url: ' http://vending.us-east-1.elasticbeanstalk.com/money/' + amount + '/item/' + item,
+        url: ' http://vending.us-east-1.elasticbeanstalk.com/money/ ' + amount + '/item/' + item,
         headers: {
 				'Accept': 'application/json',
 				'Content-Type': 'application/json'
